@@ -1,9 +1,268 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Mon 2eme site web</title>
+	<meta charset="utf-8">
+	
+	<title>Pouics!</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Acme|PT+Sans|Raleway:400,700|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <meta name="description" content="Pouics est un site d'adoption de cochons d'Inde">
+  <meta property=“og:title” content=“le Wagon - The..”>
+  <meta property=“og:image” content=“facebook-card.jpg”>
+  <meta property=“og:description” content=“Le Wagon is the...”>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-	<h1>Mon 2eme site web</h1>
+
+  <div id="my-navbar">
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light my-navbar-form">
+
+  		<img src="images/Logo.png" alt="Photo Logo" class="logo">
+  		<a class="navbar-brand" href="#">Pouics!</a>
+
+      <form class="form-inline my-2 my-lg-0 my-test">
+        <input class="form-control mr-sm-2 my-reserch" type="Je cherche..." placeholder="Je cherche..." aria-label="Je cherche...">
+        <button class="btn btn-outline-success my-2 my-sm-0 my-reserch-btn" type="submit">Rechercher</button>
+      </form>
+
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	    	<span class="navbar-toggler-icon"></span>
+  	  	</button>
+
+  	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	    <ul class="navbar-nav mr-auto">
+  	      <li class="nav-item">
+  	        <a class="nav-link decal" href="index.html">Accueil</a>
+  	      </li>
+  	      <li class="nav-item">
+  	        <a class="nav-link" href="mailto:sarah.pokrzywa@kedgebs.com">Nous contacter</a>
+  	      </li>
+  	      <li class="nav-item dropdown décaller">
+  	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  	          <i class="fas fa-bars"></i>
+  	        </a>
+  	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+  	          <a class="dropdown-item" href="#first-ancre">Tous nos Pouics</a>
+  	          <a class="dropdown-item" href="#my-map">Où trouver l'élevage</a>
+  	          <div class="dropdown-divider"></div>
+  	          <a class="dropdown-item" href="#conseils">Nos conseils</a>
+  	        </div>
+  	      </li>
+          <li>
+            <img src="images/avatar.jpg" alt="avatar" class="avatar">
+          </li>
+  	    </ul>
+  	  </div>
+    </nav>	
+  </div>
+
+
+	<div class="my-banner">
+		<div class="my-text-banner">
+			<h1>Une boule de poils et d'amour</h1>
+    		<a class="btn btn-dark btn-lg my-btn-dark" href="#first-ancre">Adopter maintenant</a>
+  		</div>
+  	</div>
+
+    <div class="catégories">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <h2>Bébés Mâles</h2>
+            <img src="Images/bébésmales.jpg" alt="photo Bébés Mâles">
+            <a href="bbmale.html" class="btn btn-danger my-btn-danger">Voir tous</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <h2>Bébés Femelles</h2>
+            <img src="Images/bébésfemelles.jpg" alt="photo Bébés Femelles">
+            <a href="bbfemales.html" class="btn btn-danger my-btn-danger">Voir tous</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <h2>Adultes Mâles</h2>
+            <img src="Images/malesadultes.jpg" alt="photo Adultes Mâles">
+            <a href="adultmale.html" class="btn btn-danger my-btn-danger">Voir tous</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <h2>Adultes Femelles</h2>
+            <img src="Images/femellesadultes.jpg" alt="photo Adultes Femelles">
+            <a href="adultfemale.html" class="btn btn-danger my-btn-danger">Voir tous</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <h3 id="first-ancre">Découvrez tous nos Pouics !</h3>
+
+  	<div class="photo-pouics">
+      <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Amande</h2>
+          	<p>Cochon d'inde Femelle, 5 mois</p>
+            <img src="Images/Amande.jpg" alt="photo Amande">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Biscotte</h2>
+          	<p>Cochon d'inde Femelle, 4 mois</p>
+            <img src="Images/Biscotte.jpg" alt="photo Biscotte">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Bizbee</h2>
+          	<p>Cochon d'inde Mâle, 1 an et 3 mois</p>
+            <img src="Images/Bizbee.jpg" alt="photo Bizbee">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Brownie</h2>
+          	<p>Cochon d'inde Mâle, 6 mois</p>
+            <img src="Images/Brownie.jpg" alt="photo Brownie">
+            <a href="#" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Bulle</h2>
+          	<p>Cochon d'inde Femelle, 1 an et 4 mois</p>
+            <img src="Images/Bulle.jpg" alt="photo Bulle">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Honey</h2>
+          	<p>Cochon d'inde Mâle, 1 an</p>
+            <img src="Images/Honey.jpg" alt="photo Honey">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Perle</h2>
+          	<p>Cochon d'inde Femelle, 3 mois</p>
+            <img src="Images/Perle.jpg" alt="photo Perle">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Pistache</h2>
+          	<p>Cochon d'inde Mâle, 3 mois</p>
+            <img src="Images/Pistache.jpg" alt="photo Pistache">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Plume</h2>
+          	<p>Cochon d'inde Femelle, 4 mois</p>
+            <img src="Images/Plume.jpg" alt="photo Plume">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+          	<h2>Réglisse</h2>
+          	<p>Cochon d'inde Mâle, 1 an et 2 mois</p>
+            <img src="Images/Réglisse.jpg" alt="photo Réglisse">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <h2>Praline</h2>
+            <p>Cochon d'inde Femelle, 4 mois</p>
+            <img src="Images/Praline.jpg" alt="photo Praline">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <h2>Noisette</h2>
+            <p>Cochon d'inde Mâle, 4 mois</p>
+            <img src="Images/Noisette.jpg" alt="photo Noisette">
+            <a href="#questionnaire d'adoption" class="btn btn-danger my-btn-danger">Adopter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="conseils">
+      <p> Les petits plus </p>
+      <ul>
+        <a href= "https://wamiz.com/rongeurs/conseil/le-cochon-d-inde-comment-l-accueillir-et-s-en-occuper-4858.html" target= »_blank>Comment prendre soin de son cochon d'Inde ? : Les conseils de Wamiz</a>
+        <h5> </h5>
+        <a href= "http://www.cobayesclub.com/races_couleurs_cobaye.htm" target= »_blank> Les différentes races de conchons d'Inde</a>
+        <h5> </h5>
+        <a href= "www.cobayesclub.com/liste_legumes_cobaye.htm" target= »_blank>Les aliments conseillés</a>
+        <h5> </h5>
+        <a>Funny cochons d'inde!</a>
+        <h5> </h5>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/xauuxEwHFxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </ul>
+    </div>
+
+  <h4 id="my-map">Nous trouver</h4>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1650.2947287569357!2d2.404535401628076!3d48.6212521889065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5de710043d3a7%3A0x21f3865d75fa2cab!2s29+Avenue+Georges+Clemenceau%2C+91080+Courcouronnes!5e1!3m2!1sfr!2sfr!4v1542041763466" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+	<h6 id="questionnaire d'adoption">Questionnaire d'adoption</h6>
+
+	<div class="typeform-widget my-typeform" data-url="https://pokrzywasarah.typeform.com/to/WW0yCI"></div> 
+  <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> 
+  <div class="koko"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=WW0yCI&utm_source=typeform.com-12788085-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+	<div id="footer">
+      <ul class="list-inline">
+       <a href="https://www.facebook.com/profile.php?id=100009988878821"><i class="fab fa-facebook-square"></i></a>
+       <a href="#"><i class="fab fa-twitter-square"></i></a>
+       <a href="#"><i class="fab fa-github-square"></i></a>
+       <a href="#"><i class="fab fa-linkedin"></i></a>
+      </ul>
+      <p>Merci de votre visite ! ©Pouics!</p>
+    </div>
+
 </body>
+
 </html>

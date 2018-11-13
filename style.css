@@ -1,0 +1,194 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #F4E8FF;
+	text-align: center;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin: 5px 10px 5px 20px;
+}
+
+.nav-item {
+	margin:5px 50px 0px 50px;
+}
+
+.décaller {
+	margin-left: 40px;
+}
+
+.decal {
+	margin-left: 30px;
+}
+
+.navbar-brand {
+	margin-right: 50px;
+	font-family: 'Acme';
+}
+
+.my-reserch {
+	width: 50px;
+}
+
+.my-reserch-btn {
+	border-color: #ce2525;
+}
+
+.btn-outline-success:hover {
+	background-color:#C82333;
+	border: 0px solid #C82333;
+}
+
+.my-navbar-form {
+	height: 50px;
+}
+
+.avatar {
+width: 40px ;
+height: 40px ;
+object-fit: cover; 
+border-radius: 50% ;
+box-shadow: 2px 2px 10px grey;
+margin: 7px 50px 7px 120px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Acme';
+	font-size: 50px;
+	padding: 20px;
+	text-shadow: 5px;
+	text-shadow: 5px 5px 5px grey;
+}
+
+.my-banner {
+	background-image: linear-gradient(20deg, rgba(10,10,10,0.5) 0%, rgba(200,200,200,0.5) 50%), url("Images/Bannière Pouics.jpg");
+  	color: white;
+  	text-align: center;
+  	height: 50vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  	background-size: cover !important;
+  	background-position: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.my-text-banner h1 {
+  	font-size: 50px;
+  	font-style: "Amarante";
+  	font-weight: bold;
+  	color: 50404;
+  	margin-bottom: 30px;
+}
+
+.card {
+  	background-color: white;
+	margin: 50px 20px 10px 20px;
+	padding : 10px 5px 10px 5px;
+	border : solid 3px grey;
+	border-radius : 10px;
+}
+
+p {
+	font-size: 15px;
+}
+
+#footer{
+  padding: 20px;
+  background: rgb(30, 30, 30);
+  color: grey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+img {
+  height: 200px;
+  object-fit: cover;
+  line-height: 30px;
+  margin: 10px 20px 20px 20px;
+}
+
+.btn {
+	margin: 10px 20px 20px 20px;
+	color: grey;
+}
+
+h2 {
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.my-btn-danger {
+	color : white;
+}
+
+.my-btn-danger:hover {
+	color : black;
+}
+
+.my-typeform {
+	height:300px;
+	margin: 10px 50px 10px 50px;
+}
+
+h4 {
+	background-color: #C82333;
+	color: white;
+	font-size: 35px;
+	margin: 10px 50px 10px 50px;
+	padding: 10px 10px 10px 10px;
+}
+
+h6 {
+	background-color: #C82333;
+	color: white;
+	font-size: 35px;
+	margin: 10px 50px 10px 50px;
+	padding: 10px 10px 10px 10px;
+}
+
+.koko {
+	font-family: Sans-Serif;
+	font-size: 12px;
+	color: #999;
+	opacity: 0.5; 
+}
+
+.fab {
+	padding-top: 5px;
+	margin: 10px 30px 10px 30px;
+}
+
+
+#first-ancre {
+	background-color: #C82333;
+	color: white;
+	font-size: 35px;
+	margin: 60px 50px 10px 50px;
+	padding: 10px 10px 10px 10px;
+}
+
+#conseils p {
+	background-color: #C82333;
+	color: white;
+	font-size: 35px;
+	margin: 60px 50px 10px 50px;
+	padding: 10px 10px 10px 10px;
+}
+
+.my-btn-dark {
+	color : white;
+}
+
+.my-btn-dark:hover {
+	color:#AFA9A2;
+}
